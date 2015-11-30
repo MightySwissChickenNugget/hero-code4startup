@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :videos
+
   get 'pages/about' #this will fetch the html from app/views/pages/about.html.erb
 
   get 'pages/contact'
